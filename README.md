@@ -1,12 +1,12 @@
-****youtube-sentiment-analysis
-Analyze sentiment of YouTube comments using NLP
-#  YouTube Comment Sentiment Analysis
+**#  YouTube Comment Sentiment Analysis
+
+Analyze sentiment of YouTube comments using NLP, TextBlob, and visualizations.
 **
-**This project performs **Sentiment Analysis on YouTube video comments** using the **YouTube Data API** and **Natural Language Processing**. It fetches comments automatically, cleans them, analyzes sentiment using `TextBlob`, and visualizes the results with charts and word clouds.
+This project performs **Sentiment Analysis on YouTube video comments** using the **YouTube Data API** and **Natural Language Processing**. It fetches comments automatically, cleans them, analyzes sentiment using TextBlob, and visualizes the results using bar chart, pie chart, and word cloud.
 
 ---
 
-##  Tools & Libraries
+## Tools & Libraries Used
 
 - Python
 - Jupyter Notebook
@@ -18,87 +18,74 @@ Analyze sentiment of YouTube comments using NLP
 
 ---
 
-## Features
+##  Features
 
--  Automatically fetches top 200 comments using YouTube API  
+-  Automatically fetches top 200 comments using the YouTube API  
 -  Cleans & preprocesses comment text  
--  Performs sentiment analysis (Positive, Negative, Neutral)  
--  Visualizes sentiment distribution (Bar Chart, Pie Chart)  
+-  Performs sentiment analysis: **Positive**, **Negative**, or **Neutral**  
+-  Visualizes sentiment distribution (Bar Chart & Pie Chart)  
 -  Generates WordCloud of most frequent words  
--  Displays most positive and negative comments
+-  Displays top 5 most positive & most negative comments  
 
 ---
 
-##  Sample Output
+## Sample Output
 
->  Bar Chart  
+  
+>  Sentiment Bar Chart  
 >  Pie Chart  
->  WordCloud  
->  Sentiment Summary & Comment Examples  
-
-*(Add screenshots here if you want)*
+>  Word Cloud  
+>  Sentiment Summary & Sample Comments  
 
 ---
 
-## How to Run
+##  How to Run
 
-1. Clone this repo or upload the notebook:
-   ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-Open in Jupyter Notebook:
+1. **Clone this repository** or upload the `.ipynb` notebook manually:
 
-bash
-Copy
-Edit
+
+git clone https://github.com/BHASKAR0111/youtube-sentiment-analysis.git
+Open the notebook:
+
 jupyter notebook youtube_sentiment_analysis.ipynb
-Replace your YouTube API key and video ID at the top of the notebook:
+Replace placeholders at the top of the notebook:
 
-python
-Copy
-Edit
 API_KEY = "YOUR_API_KEY"
-video_id = "VIDEO_ID"
-Run all cells step-by-step.
+video_id = "YOUR_VIDEO_ID"
+Run all cells step by step.
 
-YouTube API Setup
+ YouTube API Setup
 To use the YouTube API:
 
 Go to Google Cloud Console
 
-Create a project → Enable YouTube Data API v3
+Create a new project
 
-Generate an API key and paste it in the notebook.
+Enable YouTube Data API v3
 
- Final Output
-At the end, you'll get:
+Generate an API key
 
-Sentiment distribution % (Positive, Neutral, Negative)
+Paste it in the notebook:
+
+API_KEY = "YOUR_API_KEY"
+ Note: Don’t share your API key publicly. Remove it before uploading your notebook to GitHub.
+
+ Final Output Includes:
+Sentiment distribution: % of Positive, Neutral, and Negative comments
 
 Top 5 most positive comments
 
 Top 5 most negative comments
 
+Bar chart, pie chart, and word cloud for visualization
+
  Conclusion
-Majority of the comments are Positive, indicating a good reception of the video.
+Majority of comments are Positive, indicating a good reception of the video.
 
-Small percentage of Negative or Neutral comments — natural for any popular video.
+Few Neutral or Negative comments are expected for any public content.
 
-This project is a great example of using Python + NLP + API integration for real-world insights.
+This project demonstrates real-world NLP using Python, APIs, and visual analytics.
 
  Author
-[Bhaskar Baluni]
- GitHub: @BHASKAR0111
-
-yaml
-Copy
-Edit
-
----
-
-##  What To Do Next:
-
-1. Ja apne GitHub repo par → Click `Add file → Create new file → README.md`
-2. Is README content ko paste kar de.
-3. (Optional) Ek screenshot le notebook ka output ka (graph, pie chart, word cloud) → Upload and link it with:
-   ```markdown
-   ![Output](output.png)
+Bhaskar Baluni
+GitHub: @BHASKAR0111
