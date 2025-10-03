@@ -1,5 +1,5 @@
-**YouTube Comment Sentiment Analysis
-**
+# YouTube Comment Sentiment Analysis
+
 Analyze sentiment of YouTube comments using NLP, TextBlob, and visualizations.
 
 This project performs **Sentiment Analysis on YouTube video comments** using the **YouTube Data API** and **Natural Language Processing**. It fetches comments automatically, cleans them, analyzes sentiment using TextBlob, and visualizes the results using bar chart, pie chart, and word cloud.
